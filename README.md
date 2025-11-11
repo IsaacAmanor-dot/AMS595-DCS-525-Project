@@ -23,7 +23,7 @@ This project implements four fundamental numerical algorithms in Python to illus
 - Calculated **RSS = 25**, **RMSE = 2.5**, and predicted price ≈ **$1.45M** for a given test house.
 
 ### **Task 4: Gradient Descent Optimization**
-- Minimized the loss function *f(X) = ½‖X − A‖²_F* for random matrices *A, X ∈ ℝ⁽¹⁰⁰×⁵⁰⁾*.  
+- Minimized the loss function *f(X) = ½‖X − A‖²_F* for random matrices *A, X ∈ ℝ⁽¹⁰⁰*⁵⁰⁾*.  
 - Implemented a manual gradient descent loop with convergence tolerance **1×10⁻⁶**.  
 - Verified rapid convergence to the analytical minimum and plotted the loss curve.
 
