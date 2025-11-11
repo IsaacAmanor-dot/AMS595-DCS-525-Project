@@ -40,5 +40,5 @@ This project implements four fundamental numerical algorithms in Python to illus
 
 ---
 
-## 📁 Repository Structure
+
 
