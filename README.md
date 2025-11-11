@@ -19,7 +19,7 @@ This project implements four fundamental numerical algorithms in Python to illus
 
 ### **Task 3: Linear Regression via Least Squares**
 - Built a regression model to predict house prices based on square footage, bedrooms, and age.  
-- Solved \( X\beta = y \) using `scipy.linalg.lstsq` and validated with direct normal equations.  
+- Solved $ X\beta = y $ using `scipy.linalg.lstsq` and validated with direct normal equations.  
 - Calculated **RSS = 25**, **RMSE = 2.5**, and predicted price ≈ **\$1.45M** for a given test house.
 
 ### **Task 4: Gradient Descent Optimization**
