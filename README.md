@@ -18,14 +18,14 @@ This project implements four fundamental numerical algorithms in Python to illus
 - Reduced the 2D dataset to 1D along the first principal component and visualized the projection.
 
 ### **Task 3: Linear Regression via Least Squares**
-- Built a regression model to predict house prices based on square footage, bedrooms, and age.  
-- Solved $ X\beta = y $ using `scipy.linalg.lstsq` and validated with direct normal equations.  
-- Calculated **RSS = 25**, **RMSE = 2.5**, and predicted price ≈ **\$1.45M** for a given test house.
+- Built a regression model to predict house prices based on **square footage**, **bedrooms**, and **age**.  
+- Solved the linear system **Xβ = y** using `scipy.linalg.lstsq` and validated with direct normal equations.  
+- Calculated **RSS = 25**, **RMSE = 2.5**, and predicted price ≈ **$1.45M** for a given test house.
 
 ### **Task 4: Gradient Descent Optimization**
-- Minimized \( f(X) = \tfrac{1}{2}\|X - A\|_F^2 \) for random matrices \( A, X \in \mathbb{R}^{100\times50} \).  
-- Implemented manual gradient descent loop with convergence tolerance \(10^{-6}\).  
-- Verified rapid convergence to the analytical minimum and plotted loss reduction.
+- Minimized the loss function *f(X) = ½‖X − A‖²_F* for random matrices *A, X ∈ ℝ⁽¹⁰⁰×⁵⁰⁾*.  
+- Implemented a manual gradient descent loop with convergence tolerance **1×10⁻⁶**.  
+- Verified rapid convergence to the analytical minimum and plotted the loss curve.
 
 ---
 
